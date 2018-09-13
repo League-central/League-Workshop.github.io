@@ -1,80 +1,115 @@
-
 <!DOCTYPE html>
 <html>
-<title>Intro To Java Workshop - Opening Admin</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://league-level0.github.io/style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-</style>
-    <script src="https://league-level0.github.io/footer.js"> </script>
-<body>
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-
-    <h1 class="w3-jumbo w3-animate-top">Intro To Java Workshop - Opening Admin</h1>
-    <div class="w3-display-topleft w3-padding-large w3-xlarge">
-       <hr class="w3-border-grey" style="margin:auto;width:40%">
-  </div>
-
-    <div class="w3-display-middle">   
+    <head>
+        <title>Level 0 - Module Overview</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://league-level0.github.io/style/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <script src="script/headerAndFooter.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="main">
+                <div id="header">
+                    <script>addHeader();</script>
+                </div>
+                
+                <h2>Intro To Java Workshop<br>Opening Admin</h2>
+                <div id ="teachersPage">
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Pre-Arrival</h3>
+                        </div>
+                        <div class = "description">
+                            <p>
+                               The workshop is the first impression of The League for most students. Therefore, before the students arrive, check the  classroom as follows:
+                            </p>
+                            <ul style ="list-style: disc;">
+                                <li>Check there are enough computers for expected student attendance.</li>
+                                <li>Clear computer Desktop folders of unwanted content.</li>
+                                <li>Make sure there is no active GitHub session.</li>
+                                <li>Check Eclipse is empty of projects.</li>
+                                <li>Wipe down keyboards and mice. Clean screens.</li>
+                                <li>Print waivers for students who do not have a signed waiver on file.</li>
+                                <li>For multi-class workshops, organize students in age groups and post student names outside classrooms.</li>
+                            </ul>
+                        </div>
+                    </div>                
+                
+                
+                <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Survey / Github</h3>
+                        </div>
+                        <div class = "description">
+                            <p>
+                                Ask students to complete the pre-workshop survey: <a href="https://bit.ly/LeagueBeforeWorkshop">bit.ly/LeagueBeforeWorkshop</a>
+                            </p>
+                            <ul style ="list-style: disc;">
+                                <li>Use this activity to establish if all students have set up a Github account</li>
+                            </ul>
+                        </div>
+                    </div>                          
+                
+                
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Attendance and Photos</h3>
+                        </div>
+                        <div class = "description">
+                            <p>
+                                Sign into your (teacher) Pike13 account.
+                            </p>
+                            <ul style ="list-style: disc;">
+                                <li>Mark attendance for each student</li>
+                                <li>Take a head shot photo and upload it into each student's client profile</li>
+                            </ul>
+                        </div>
+                    </div>            
         
-                <h3>Pre-Arrival</h3>
-<p class="normal" align="center">
-    Check classrooms have enough computers for expected student attendance.<br>
-    <br>
-    Clear computer Desktop folders of all content. Make sure no GitHub sign in has been left on computers. Check Eclipse is empty of projects.<br>
-    <br>
-    Wipe down keyboards and mice. Clean screens. Print waivers for students who do not have a signed waiver on file.<br>
-    <br>
-    For multi-class workshops, organize students in age groups and post student names outside classrooms.
-        </p>
-        
-        <h3>Survey / Github</h3>
-<p class="normal" align="center">
-        Ask students to complete the pre-workshop survey: <a href="https://bit.ly/LeagueBeforeWorkshop">bit.ly/LeagueBeforeWorkshop</a><br>
-    <br>
-    (Use this activity to establish if all students have set up a Github account)
-        </p>
-        <h3>Attendance and Photos</h3>
- <p class="normal" align="center">
-     In the LeagueHub (Pike13) mark attendance for each student, take a head shot photo and upload it into their client profile.<br>
-        </p>
-        <h3>Warm-up</h3>
-   <p class="normal" align="center">
-     While students are still arriving and completing admin tasks, give the class coding warm-up activities, for example:</p>
-       <p class="normal" align="center"><a href="https://bit.ly/blockly-maze">bit.ly/blockly-maze</a><br>
-        </p>     
 
-    <h3>Clone Workshop Code</h3>
-           <p class="normal">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Students who have GitHub accounts should login at gitbub.com, then get the GitHub classroom assignment for the Workshop at: <a href="https://bit.ly/introtojava">bit.ly/introtojava</a></p>
-
-     <p class="normal">
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They will first need to allow GitHub classroom to access their account.<br><br>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then follow the prompts to accept the assignment from the classroom.<br><br>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;They should now have a copy of the LeagueWorkshop/intro-to-java-workshop-XXXXXXX (where XXXXXXX is their github id)<br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally they will clone the code to their Desktop (either push from github.com, or go to Github Desktop and clone from there).</p> 
-       <p class="normal">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>NOTE:</b> There is no need to import this code into Eclipse at this time. The first session is Processing based.
-        
-        
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Warm-up</h3>
+                         </div>
+                        <div class = "description">
+                            <p>
+                                This web site provides activities for students to work on while they wait for everyone to arrive and log in. 
+                               <a href="https://bit.ly/blockly-maze">bit.ly/blockly-maze</a>.
+                                Be sure to emphasize that this is NOT Java coding.
+                            </p>
+                            
+                        </div>
+                    </div>
+                
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Clone Workshop Code</h3>
+                         </div>
+                        <div class = "description">
+                            <p>
+                                Students will need to get the workshop code from GitHub. See below:<br><br>
+                                Students without GitHub accounts can work on a copy of the workshop code (you will need to download this for them) but explain that their work will not be saved at the end of the class.<br>
+                               
+                            </p>
+                            <ul style ="list-style: disc;">
+                                <li>Sign in to GitHub</li>
+                                <li>Go to: <a href="https://bit.ly/introtojava">bit.ly/introtojava</a></li>
+                                <li>Allow GitHub classroom to access the GitHub account.</li>
+                                <li>Accept the assignment from the classroom.</li>
+                                <li>Check they have a copy of the LeagueWorkshop/intro-to-java-workshop-XXXXXXX repository (where XXXXXXX is their github id)</li>
+                                <li>Clone the code to the computer's Desktop.</li>
+                                <li><b>NOTE:</b> There is no need to import this code into Eclipse at this time. The first session uses Processing.</li>
+                            </ul>
+                        </div>
+                    </div>
    
-  </div>
-
-  
-       <script>addFooter();</script> 
- 
-
-</body>
+            </div>
+            <div id="footer">
+                <script>addFooter();</script>
+            </div>
+        </div>
+    </body>    
 </html>
+
