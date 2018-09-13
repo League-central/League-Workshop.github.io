@@ -1,90 +1,110 @@
-
 <!DOCTYPE html>
 <html>
-<title>Intro To Java Workshop - Section 3</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://league-level0.github.io/style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-</style>
-    <script src="https://league-level0.github.io/footer.js"> </script>
-<body>
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <head>
+        <title>Level 0 - Module Overview</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://league-level0.github.io/style/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <script src="script/headerAndFooter.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="main">
+                <div id="header">
+                    <script>addHeader();</script>
+                </div>
 
-    <h1 class="w3-jumbo w3-animate-top">Intro To Java Workshop - Section 3</h1>
-    <div class="w3-display-topleft w3-padding-large w3-xlarge">
-       <hr class="w3-border-grey" style="margin:auto;width:40%">
-  </div>
-
-    <div class="w3-display-middle">   
-        <h3>Strings and Dialogs</h3>
- <p class="normal">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If any student did not clone the workshop code, they should do that now, and import the cloned Java Project into Eclipse. It should be on the Desktop (see <a href="Session1.html">Section 1</a>).
- <br><br>
-     
-             <h3>Hello World - syso</h3>
- <p class="normal">
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Talk the students through making a new class called HelloWorld in the section3 package.
-  <br>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explain how to use Eclipe's ctrl-space to short-cut writing code. Demonstrate its use creating the main method.
-  </p>
-
-                  <h3>Output Dialog</h3>
-   <p class="normal">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduce JOptionPane and the message dialog.<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- have students create a NicestProgram class and give 3-4 compliments using message dialogs.
-  </p>
+                <h2>Intro To Java Workshop<br>Section 3: Strings and Dialogs</h2>
+                
+                 <div id ="teachersPage">
   
-                          <h3>Input Dialog</h3>
+                     
+                     <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Hello World - syso</h3>
+                        </div>
+                        <div class = "description">
+                            <p>If any student did not get the workshop code, they should do that now.<br><br>
+                                All students should clone and import their Java Project into Eclipse.
+                            </p>
+  
+                            <ul style ="list-style: disc;">
+                                <li>Talk the students through making a new class called HelloWorld in the section3 package.</li>
+                                <li>Explain how to use Eclipe's ctrl-space to short-cut writing code.</li>
+                                <li>Demonstrate the short-cut to create a main method.</li>
+                                <li>Explain "syso" .</li>
+                                <li>Demonstrate using double quotes to delimit strings. Have students print "Hello World" to console</li>
+                                <li>Run the program</li>
+                            </ul>
+                        </div>
+                    </div>                 
+                
 
- <p class="normal">       
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduce the input dialog.<br>
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Output Dialog</h3>
+                        </div>
+                        <div class = "description">                               
+                         <ul style ="list-style: disc;">
+                             <li>Introduce JOptionPane and the message dialog.</li>
+                             <li>Write format of how to use showMessageDialog() on whiteboard.</li>
+                             <li>Have students create a NicestProgram class and give 3-4 compliments using message dialogs.</li>
+                            </ul>
+                        </div>
+                    </div>                 
+                
+                             
+                             
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Input Dialog</h3>
+                        </div>
+                        <div class = "description">                               
+                         <ul style ="list-style: disc;">
+                             <li>Introduce the input dialog.</li>
+                             <li>Introduce the String variable.</li>
+                             <li>Write format of how to use showInputDialog() on whiteboard.</li>
+                             <li>Have students create a Greeter class to ask the user their name and put it in a variable.</li>
+                             <li>Explain how to join the name to a greeting and have students display the whole message in an output dialog.</li>
+                            </ul>
+                        </div>
+                    </div>                 
+                
  
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- have students create a Greeter class to ask the user their name. Explain how to join their name to a greeting and have students display the whole message in an output dialog.</p>
-     
-         
-       <h3>Dialog Recipes</h3>
-        
-        <p class="normal">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you have time, you can do all of these. If not, use your audience to gauge which will have the most appeal.<br><br>
-         
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           CandyCrush <br><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Madlibs<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
-          Stephen Hawking (May not work on some operating systems)<br><br>
+                            
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Dialog Recipes</h3>
+                         </div>
+                        <div class = "description">
+                            <p>All these recipes are contained in the section3 package of the workshop project.<br><br>
+                                If you have time, you can do all of these. If not, use your audience to gauge which will have the most appeal.</p>
+                         <ul style ="list-style: disc;">
+                             <li>CandyCrush</li>
+                             <li>Madlibs</li>
+                             <li>Stephen Hawking (may not work on all operating systems)</li>
+                            </ul>
+                        </div>
+                    </div>                 
   
-                                    <h3>if statement</h3>
-<p class="normal">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before they code these, they will need to know how to code an if statement<br><br>
-        
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          World Domination <br><br>
-           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          Speak and Spell (May not work on some operating systems)<br><br>
-            
-             
-            
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All these recipes are contained in the section3 package of the workshop project.
-     <br>
-        <br><br>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-
-   
-  </div>
-
-  
-       <script>addFooter();</script> 
- 
-
-</body>
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>if statement</h3>
+                         </div>
+                        <div class = "description">
+                            <p>Before they code these recipes, they will need to know how to code an if statement</p>
+                         <ul style ="list-style: disc;">
+                             <li> World Domination</li>
+                             <li>Speak and Spell (may not work on all operating systems)</li>
+                            </ul>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+            <div id="footer">
+                <script>addFooter();</script>
+            </div>
+        </div>
+    </body>    
 </html>
