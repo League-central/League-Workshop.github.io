@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workshop Session 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://league-level0.github.io/style/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <script src="script/headerAndFooter.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="main">
+                <div id="header">
+                    <script>addHeader();</script>
+                </div>
+
+                <h2>Intro To Java Workshop<br>Section 4 (Alternate)</h2>
+
+                 <div id ="teachersPage">
+
+
+                     <div class ="module">
+                        <div class ="titleBar">
+                            <h3>While loop activity</h3>
+                        </div>
+                        <div class = "description">
+                          <ul>
+                            <li>Print a few copies of <a href="res/whileLoop.pdf">this worksheet</a> (editable version <a href="https://docs.google.com/document/d/1TY8t730JZvVPAirPy74S8mD2FGFSvCS0WppJLIPps3M/edit?usp=sharing">
+                              here</a>) before class.
+                            </li>
+                            <li>
+                              Do an example with students: roll one die and write the result in the first box.  Roll two dice and write the sum in the second box.
+                              Walk through the code and figure out what will be printed.
+                            </li>
+                            <li>
+                              Divide students into small groups and give each group a worksheet.  Ask them to work together to roll the dice,
+                              fill out the worksheet, and figure out what the code will print.
+                            </li>
+                            <li>
+                              Have students explain their answers.  Once they have it correct, dispense the corresponding
+                              number of animal crackers.
+                            </li>
+                          <ul>
+                        </div>
+                    </div>
+
+
+                    <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Stephen Hawking</h3>
+                        </div>
+                        <div class = "description">
+                          <p>
+                          Remind students of the three types of variables they have learned about.  Review how to declare and initialize a string.
+                          Explain the <code>speak()</code> method, and relate it to calling <code>move()</code> or <code>turn()</code> but with a <code>String</code> parameter
+                          instead of an <code>int</code> parameter.
+                        </p>
+                        <p>
+                          Have students complete Stephen Hawking in zebra.section4 package.
+                        </p>
+                         </div>
+                    </div>
+
+
+                   <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Zombie Eyes</h3>
+                        </div>
+                        <div class = "description">
+                          Complete the Zombie Eyes recipe.  Starter code is provided to the students in package zebra.section4.
+                          The instructions are the same as the usual Zombie Eyes recipe,
+                           but images are included in the data folder (face0.jpg, face1.jpg, etc.)
+                          so students can choose a face without having to use the internet.  Instructions for taking their own photo
+                          using photobooth (will work on Macs) are included as an extra.
+
+                         </div>
+                    </div>
+
+
+
+
+                   <div class ="module">
+                        <div class ="titleBar">
+                            <h3>Race</h3>
+                       </div>
+                        <div class = "description">
+                          <p>
+                            Make sure sound library is installed: "Tools" -> "Add tool..." -> "Libraries" Tab -> Filter for "sound"
+                            If the "Sound" library has a green checkbox next to it, it is installed.
+                            If it does not, click the library and click "Install"
+                          </p>
+                          <p>
+                            <ul>
+                              <li>Tell students they will be making a game where two people can race
+                              a dog and a cat across the screen by each tapping a keyboard button as fast as they can</li>
+                              <li>Ask students to call <code>moveDog()</code> in the <code>setup()</code> method.
+                              The dog will move just a tiny bit because the <code>setup()</code> method is called just once.</li>
+                              <li>Ask students to move the call to <code>moveDog()</code> in the <code>draw()</code> method.
+                              The dog will keep moving because the <code>draw</code> method is called repeatedly.</li>
+                              <li>But, we don't want the dog to move constantly--we want it to move
+                              only when we hit a button.  Explain that the <code>key</code> variable
+                              keeps track of the last button that was hit, so we can write <code>if (key == 'a'){...}</code></li>
+                            </ul>
+                          </p>
+                          <p>
+                            Final code should have something like this in the <code>draw()</code> method:
+                            <code> <pre>
+
+  if (key == 'a'){
+      moveDog();
+  }
+  if (key == 'l') {
+      moveCat();
+  }
+                            </pre> </code>
+                          </p>
+                          <p>
+                            Optional extra activities for students who finish early:
+                            <ul>
+                              <li>Change the background image</li>
+                              <li>Make the animals move faster</li>
+                              <li>Change the text that appears when someone wins</li>
+                            </ul>
+                          </p>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="footer">
+                <script>addFooter();</script>
+            </div>
+        </div>
+    </body>
+</html>
